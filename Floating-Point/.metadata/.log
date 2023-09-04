@@ -1,0 +1,1077 @@
+!SESSION 2023-05-14 00:36:02.747 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=19.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dlog.protocol=true -Dlog.level=ALL -Xmx4g --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -javaagent: /home/dungtran/.local/share/nvim/mason/packages/jdtls/lombok.jar -jar /home/dungtran/.local/share/nvim/mason/packages/jdtls/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar
+Command-line arguments:  -data /home/dungtran/Workspaces/Java/Floating-Point -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dlog.protocol=true -Dlog.level=ALL -Xmx4g --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -javaagent: /home/dungtran/.local/share/nvim/mason/packages/jdtls/lombok.jar -jar /home/dungtran/.local/share/nvim/mason/packages/jdtls/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:04.359
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:04.549
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:04.607
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:04.609
+!MESSAGE Initializing Java Language Server 1.23.0.202304271346
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:04.611
+!MESSAGE No workspace folders or root uri was defined. Falling back on /home/dungtran/Workspaces/Java/Floating-Point
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:04.635
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:04.636
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:04.643
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:05.910
+!MESSAGE ProjectRegistryRefreshJob finished 1267ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:05.942
+!MESSAGE Started org.eclipse.buildship.core 30ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:05.961
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:05.988
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:05.993
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:06.184
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:07.393
+!MESSAGE Workspace initialized in 1432ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:07.567
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:07.571
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:07.575
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:07.705
+!MESSAGE Setting /usr/lib/jvm/jdk-19 as 'JavaSE-19' environment (id:1683999366128)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:07.707
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:08.294
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-05-14 00:36:08.329
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: MethodNotFound
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: MethodNotFound
+	at java.base/java.util.concurrent.CompletableFuture.reportJoin(CompletableFuture.java:413)
+	at java.base/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2118)
+	at org.eclipse.jdt.ls.core.internal.JavaClientConnection.executeClientCommand(JavaClientConnection.java:93)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.synchronizeBundles(JDTLanguageServer.java:415)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:302)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: MethodNotFound
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:08.483
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:08.484
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:08.489
+!MESSAGE Validated 1. Took 63 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:08.516
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:08.533
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:08.535
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:10.185
+!MESSAGE Reconciled 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:10.262
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:10.346
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:10.577
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:11.007
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:11.007
+!MESSAGE 2 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:11.008
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:11.248
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:11.313
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:11.357
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:11.709
+!MESSAGE Reconciled 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:11.753
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:11.855
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:11.866
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:12.299
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:12.303
+!MESSAGE The declared package "com" does not match the expected package "com.java.maim" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:12.304
+!MESSAGE 3 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:12.305
+!MESSAGE Validated 1. Took 38 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:12.963
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:13.062
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:13.299
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:13.299
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:13.492
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:13.601
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:14.079
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:14.080
+!MESSAGE The declared package "com.java" does not match the expected package "com.java.maim" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:14.081
+!MESSAGE 3 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:14.082
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:15.229
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:15.684
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:16.159
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:16.159
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:16.161
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:16.941
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:16.997
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:17.101
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:17.570
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:17.572
+!MESSAGE The declared package "com.java.main" does not match the expected package "com.java.maim" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:17.580
+!MESSAGE 2 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:17.581
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:17.844
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:18.316
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:18.317
+!MESSAGE The declared package "com.java.main" does not match the expected package "com.java.maim" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:18.318
+!MESSAGE 2 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:18.318
+!MESSAGE Validated 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:22.283
+!MESSAGE Clearing problems for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:22.368
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:22.382
+!MESSAGE Clearing problems for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:22.410
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:22.829
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:22.829
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:22.830
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:25.553
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:25.641
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:25.642
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:25.796
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:25.925
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:26.344
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:26.345
+!MESSAGE 2 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:26.346
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:26.567
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:26.995
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:26.995
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:26.996
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:27.934
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:28.398
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:28.398
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:28.399
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:28.531
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:28.598
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:29.023
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:29.023
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:29.024
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:29.224
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:29.242
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:29.539
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:29.644
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:29.682
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:29.752
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:29.778
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:30.210
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:30.210
+!MESSAGE 4 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:30.211
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:30.689
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:30.736
+!MESSAGE Reconciled 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:31.215
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:31.216
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:31.216
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:33.579
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:33.661
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:33.688
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:33.764
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:33.850
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:33.886
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:34.367
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:34.367
+!MESSAGE 3 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:34.367
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:34.503
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:34.556
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:35.024
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:35.025
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:35.036
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:36.876
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:36.944
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:37.108
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:37.166
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:37.445
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:37.507
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:37.933
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:37.934
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:37.935
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:38.169
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:38.187
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:38.355
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:38.736
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:38.753
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:39.173
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:39.174
+!MESSAGE 2 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:39.174
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:40.149
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:40.214
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:40.642
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:40.643
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:40.644
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:41.184
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:41.196
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:41.626
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:41.627
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:41.628
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:41.657
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:42.130
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:42.130
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:36:42.131
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:10.357
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:10.784
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:10.784
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:10.785
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:12.271
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:12.285
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:12.557
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:12.596
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:12.767
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:12.859
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:13.292
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:13.292
+!MESSAGE 3 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:13.293
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:13.518
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:13.676
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:13.873
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:13.914
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:13.979
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:14.102
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:14.107
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:14.281
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:14.314
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:14.717
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:14.718
+!MESSAGE 3 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:14.718
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:15.306
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:15.736
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:15.736
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:15.737
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:16.617
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:17.050
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:17.050
+!MESSAGE 2 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:17.051
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:17.067
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:17.078
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:17.490
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:17.505
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:17.832
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:17.849
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:18.325
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:18.326
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:18.327
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:18.918
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:18.984
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:19.222
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:19.271
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:19.340
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:19.803
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:19.803
+!MESSAGE 2 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:19.803
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:19.961
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:20.021
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:20.500
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:20.501
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:20.502
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:22.439
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:22.612
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:22.632
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:22.718
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:22.726
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:22.841
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:22.915
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:23.197
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:23.216
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:23.695
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:23.695
+!MESSAGE 3 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:23.695
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:23.954
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:24.020
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:24.125
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:24.192
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:24.298
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:24.310
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:24.452
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:24.571
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:24.769
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:24.838
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:24.856
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:25.046
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:25.051
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:25.216
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:25.220
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:25.337
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:25.446
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:25.878
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:25.879
+!MESSAGE 3 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:25.880
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:26.068
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:26.496
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:26.496
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:26.497
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:28.127
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:28.187
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:28.522
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:28.537
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:28.786
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:28.798
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:29.223
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:29.223
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:29.224
+!MESSAGE Validated 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:29.553
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:29.618
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:29.753
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:29.924
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:29.987
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:30.126
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:30.158
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:30.634
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:30.635
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:37:30.638
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:58:32.166
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:58:32.403
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:58:32.406
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:58:32.884
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:58:32.885
+!MESSAGE 3 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:58:32.894
+!MESSAGE Validated 1. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:58:33.208
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:58:33.241
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:58:33.408
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:58:33.467
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:58:33.944
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:58:33.944
+!MESSAGE 3 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:58:33.945
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:58:34.184
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:58:34.659
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:58:34.660
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:58:34.661
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:58:35.028
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:58:35.037
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:58:35.459
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:58:35.459
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:58:35.460
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:38.321
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:38.745
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:38.746
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:38.746
+!MESSAGE Validated 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:39.097
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:39.110
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:39.299
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:39.314
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:39.406
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:39.422
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:39.612
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:40.074
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:40.191
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:40.275
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:40.559
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:41.035
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:41.035
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:41.036
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:41.156
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:41.194
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:41.437
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:41.560
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:42.037
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:42.037
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:42.037
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:44.013
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:44.488
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:44.489
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:44.490
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:44.938
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:45.061
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:45.478
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:45.479
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 00:59:45.479
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:00:18.266
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:00:26.903
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:00:26.955
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:00:27.461
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:00:27.547
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:00:27.634
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:00:27.732
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:00:27.960
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:00:28.120
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:00:28.277
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:00:28.354
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:00:28.779
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:00:28.780
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:00:28.780
+!MESSAGE Validated 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:00:29.051
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:00:36.597
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:00:37.014
+!MESSAGE begin problem for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:00:37.015
+!MESSAGE 1 problems reported for /FloatingPointValues.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:00:37.015
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:08:16.494
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:08:16.517
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:08:16.551
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:08:16.573
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

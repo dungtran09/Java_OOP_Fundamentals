@@ -1,0 +1,775 @@
+!SESSION 2023-05-06 03:21:09.269 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=19.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  /usr/lib/jvm/jdk-19/bin/java -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dlog.protocol=true -Dlog.level=ALL -Xmx4g --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -javaagent: /home/dungtran/.local/opt/jdtls-launcher/jdtls/lombok.jar -jar /home/dungtran/.local/opt/jdtls-launcher/jdtls/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar
+Command-line arguments:  -data /home/dungtran/Workspaces/Java/StudentManagement /usr/lib/jvm/jdk-19/bin/java -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dlog.protocol=true -Dlog.level=ALL -Xmx4g --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -javaagent: /home/dungtran/.local/opt/jdtls-launcher/jdtls/lombok.jar -jar /home/dungtran/.local/opt/jdtls-launcher/jdtls/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:10.928
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:11.114
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:11.168
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:11.171
+!MESSAGE Initializing Java Language Server 1.24.0.202305051739
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:11.199
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:11.200
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:11.207
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:12.408
+!MESSAGE ProjectRegistryRefreshJob finished 1199ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:12.450
+!MESSAGE Started org.eclipse.buildship.core 40ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:12.469
+!MESSAGE RepositoryRegistryUpdateJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:12.504
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:12.514
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:12.686
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:13.282
+!MESSAGE Workspace initialized in 813ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:13.398
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:13.406
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:13.413
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:13.480
+!MESSAGE Setting /usr/lib/jvm/jdk-19 as 'JavaSE-19' environment (id:1683318072637)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:13.483
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:13.704
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:13.705
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:13.762
+!MESSAGE Try to create an invisible project for the workspace /home/dungtran/Workspaces/Java/Arrays/StudentManagement
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:13.762
+!MESSAGE Creating the Java project StudentManagement_7398d11e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:13.778
+!MESSAGE Finished creating the Java project StudentManagement_7398d11e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:13.784
+!MESSAGE Successfully created a workspace invisible project StudentManagement_7398d11e
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-05-06 03:21:14.116
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:14.126
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:14.800
+!MESSAGE >> Updating classpath for project StudentManagement_7398d11e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:14.859
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:14.859
+!MESSAGE 0 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:14.861
+!MESSAGE Validated 1. Took 466 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:14.877
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:20.318
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:21.074
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:21.075
+!MESSAGE 0 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:21.076
+!MESSAGE Validated 1. Took 57 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:21.816
+!MESSAGE Reconciled 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:22.047
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:22.271
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:22.271
+!MESSAGE 1 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:22.273
+!MESSAGE Validated 1. Took 56 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:23.606
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:24.082
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:24.083
+!MESSAGE 1 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:24.092
+!MESSAGE Validated 1. Took 83 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:24.115
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:24.631
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:24.632
+!MESSAGE 1 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:24.643
+!MESSAGE Validated 1. Took 75 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:24.669
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:25.106
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:25.106
+!MESSAGE 1 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:25.107
+!MESSAGE Validated 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:25.192
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:25.383
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:25.707
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:25.822
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:25.985
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:26.414
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:26.414
+!MESSAGE 0 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:26.414
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:27.097
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:27.152
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:27.506
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:27.960
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:27.960
+!MESSAGE 1 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:27.961
+!MESSAGE Validated 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:28.481
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:28.865
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:28.968
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:29.128
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:29.554
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:29.554
+!MESSAGE 0 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:29.555
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:29.740
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:29.800
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:30.167
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:30.167
+!MESSAGE 1 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:30.168
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:31.012
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:31.487
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:31.487
+!MESSAGE 1 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:31.487
+!MESSAGE Validated 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:31.696
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:32.131
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:32.132
+!MESSAGE 1 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:32.134
+!MESSAGE Validated 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:32.155
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:32.561
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:32.816
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:32.989
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:33.463
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:33.463
+!MESSAGE 1 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:33.463
+!MESSAGE Validated 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:33.681
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:34.027
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:34.456
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:34.457
+!MESSAGE 1 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:34.457
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:34.480
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:34.621
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:34.697
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:34.821
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:34.844
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:34.863
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:34.870
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:35.288
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:35.289
+!MESSAGE 1 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:35.289
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:37.081
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:37.120
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:37.544
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:37.544
+!MESSAGE 0 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:37.544
+!MESSAGE Validated 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:42.583
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:42.603
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:42.637
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 03:21:42.656
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2023-05-06 04:11:45.739 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=19.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dlog.protocol=true -Dlog.level=ALL -Xmx4g --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -javaagent: /home/dungtran/.local/share/nvim/mason/packages/jdtls/lombok.jar -jar /home/dungtran/.local/share/nvim/mason/packages/jdtls/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar
+Command-line arguments:  -data /home/dungtran/Workspaces/Java/StudentManagement -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dlog.protocol=true -Dlog.level=ALL -Xmx4g --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -javaagent: /home/dungtran/.local/share/nvim/mason/packages/jdtls/lombok.jar -jar /home/dungtran/.local/share/nvim/mason/packages/jdtls/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:47.512
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:47.697
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:47.777
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:47.779
+!MESSAGE Initializing Java Language Server 1.23.0.202304271346
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:47.782
+!MESSAGE No workspace folders or root uri was defined. Falling back on /home/dungtran/Workspaces/Java/StudentManagement
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:47.812
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:47.812
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:47.820
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:49.285
+!MESSAGE ProjectRegistryRefreshJob finished 1464ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:49.335
+!MESSAGE Started org.eclipse.buildship.core 49ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:49.369
+!MESSAGE RepositoryRegistryUpdateJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:49.421
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:50.140
+!MESSAGE Workspace initialized in 773ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:50.205
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:50.214
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:50.228
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-05-06 04:11:50.904
+!MESSAGE Error occured while building workspace. Details: 
+ message: The method getGpa() is undefined for the type Student; code: 67108964; resource: /home/dungtran/Workspaces/Java/Arrays/StudentManagement/src/com/java/studentmanagement/core/Self.java; line: 104
+ message: The method getGpa() is undefined for the type Student; code: 67108964; resource: /home/dungtran/Workspaces/Java/Arrays/StudentManagement/src/com/java/studentmanagement/core/Self.java; line: 104
+ message: The method getId() is undefined for the type Student; code: 67108964; resource: /home/dungtran/Workspaces/Java/Arrays/StudentManagement/src/com/java/studentmanagement/core/Self.java; line: 143
+ message: The method getId() is undefined for the type Student; code: 67108964; resource: /home/dungtran/Workspaces/Java/Arrays/StudentManagement/src/com/java/studentmanagement/core/Self.java; line: 169
+ message: The method setName(String) is undefined for the type Student; code: 67108964; resource: /home/dungtran/Workspaces/Java/Arrays/StudentManagement/src/com/java/studentmanagement/core/Self.java; line: 210
+ message: The import lombok cannot be resolved; code: 268435846; resource: /home/dungtran/Workspaces/Java/Arrays/StudentManagement/src/com/java/studentmanagement/core/Student.java; line: 5
+ message: The import lombok cannot be resolved; code: 268435846; resource: /home/dungtran/Workspaces/Java/Arrays/StudentManagement/src/com/java/studentmanagement/core/Student.java; line: 6
+ message: Getter cannot be resolved to a type; code: 16777218; resource: /home/dungtran/Workspaces/Java/Arrays/StudentManagement/src/com/java/studentmanagement/core/Student.java; line: 8
+ message: Setter cannot be resolved to a type; code: 16777218; resource: /home/dungtran/Workspaces/Java/Arrays/StudentManagement/src/com/java/studentmanagement/core/Student.java; line: 9
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-05-06 04:11:50.984
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: MethodNotFound
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: MethodNotFound
+	at java.base/java.util.concurrent.CompletableFuture.reportJoin(CompletableFuture.java:413)
+	at java.base/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2118)
+	at org.eclipse.jdt.ls.core.internal.JavaClientConnection.executeClientCommand(JavaClientConnection.java:93)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.synchronizeBundles(JDTLanguageServer.java:415)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:302)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: MethodNotFound
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:51.094
+!MESSAGE Reconciled 3. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:51.268
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:51.269
+!MESSAGE 4 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:51.425
+!MESSAGE begin problem for /Self.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:51.425
+!MESSAGE 5 problems reported for /Self.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:51.460
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:51.461
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:51.462
+!MESSAGE Validated 3. Took 364 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:51.485
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:51.496
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:11:51.498
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:24:23.057
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:24:23.080
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:24:23.126
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:24:23.152
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2023-05-06 04:25:48.967 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=19.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dlog.protocol=true -Dlog.level=ALL -Xmx4g --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -javaagent: /home/dungtran/.local/share/nvim/mason/packages/jdtls/lombok.jar -jar /home/dungtran/.local/share/nvim/mason/packages/jdtls/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar
+Command-line arguments:  -data /home/dungtran/Workspaces/Java/StudentManagement -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dlog.protocol=true -Dlog.level=ALL -Xmx4g --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -javaagent: /home/dungtran/.local/share/nvim/mason/packages/jdtls/lombok.jar -jar /home/dungtran/.local/share/nvim/mason/packages/jdtls/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:25:50.564
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:25:50.750
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:25:50.809
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:25:50.811
+!MESSAGE Initializing Java Language Server 1.23.0.202304271346
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:25:50.814
+!MESSAGE No workspace folders or root uri was defined. Falling back on /home/dungtran/Workspaces/Java/StudentManagement
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:25:50.839
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:25:50.839
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:25:50.845
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:25:52.138
+!MESSAGE ProjectRegistryRefreshJob finished 1292ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:25:52.168
+!MESSAGE Started org.eclipse.buildship.core 30ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:25:52.190
+!MESSAGE RepositoryRegistryUpdateJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:25:52.232
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:25:53.043
+!MESSAGE Workspace initialized in 856ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:25:53.117
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:25:53.127
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:25:53.138
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-05-06 04:25:53.839
+!MESSAGE Error occured while building workspace. Details: 
+ message: The method getGpa() is undefined for the type Student; code: 67108964; resource: /home/dungtran/Workspaces/Java/Arrays/StudentManagement/src/com/java/studentmanagement/core/Self.java; line: 104
+ message: The method getGpa() is undefined for the type Student; code: 67108964; resource: /home/dungtran/Workspaces/Java/Arrays/StudentManagement/src/com/java/studentmanagement/core/Self.java; line: 104
+ message: The method getId() is undefined for the type Student; code: 67108964; resource: /home/dungtran/Workspaces/Java/Arrays/StudentManagement/src/com/java/studentmanagement/core/Self.java; line: 143
+ message: The method getId() is undefined for the type Student; code: 67108964; resource: /home/dungtran/Workspaces/Java/Arrays/StudentManagement/src/com/java/studentmanagement/core/Self.java; line: 169
+ message: The method setName(String) is undefined for the type Student; code: 67108964; resource: /home/dungtran/Workspaces/Java/Arrays/StudentManagement/src/com/java/studentmanagement/core/Self.java; line: 210
+ message: Getter cannot be resolved to a type; code: 16777218; resource: /home/dungtran/Workspaces/Java/Arrays/StudentManagement/src/com/java/studentmanagement/core/Student.java; line: 8
+ message: Setter cannot be resolved to a type; code: 16777218; resource: /home/dungtran/Workspaces/Java/Arrays/StudentManagement/src/com/java/studentmanagement/core/Student.java; line: 9
+ message: The import lombok cannot be resolved; code: 268435846; resource: /home/dungtran/Workspaces/Java/Arrays/StudentManagement/src/com/java/studentmanagement/core/Student.java; line: 5
+ message: The import lombok cannot be resolved; code: 268435846; resource: /home/dungtran/Workspaces/Java/Arrays/StudentManagement/src/com/java/studentmanagement/core/Student.java; line: 6
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-05-06 04:25:53.891
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: MethodNotFound
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: MethodNotFound
+	at java.base/java.util.concurrent.CompletableFuture.reportJoin(CompletableFuture.java:413)
+	at java.base/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2118)
+	at org.eclipse.jdt.ls.core.internal.JavaClientConnection.executeClientCommand(JavaClientConnection.java:93)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.synchronizeBundles(JDTLanguageServer.java:415)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:302)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: MethodNotFound
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:25:53.901
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:25:54.138
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:25:54.139
+!MESSAGE 4 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:25:54.144
+!MESSAGE Validated 1. Took 241 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:25:54.151
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:25:54.168
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:25:54.169
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:02.703
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:03.144
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:03.144
+!MESSAGE 1 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:03.145
+!MESSAGE Validated 1. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:09.295
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:09.735
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:09.735
+!MESSAGE 1 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:09.736
+!MESSAGE Validated 1. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:11.645
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:12.159
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:12.159
+!MESSAGE 1 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:12.160
+!MESSAGE Validated 1. Took 73 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:13.010
+!MESSAGE Reconciled 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:13.477
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:13.478
+!MESSAGE 7 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:13.479
+!MESSAGE Validated 1. Took 68 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:14.689
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:14.717
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:15.163
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:15.163
+!MESSAGE 1 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:15.164
+!MESSAGE Validated 1. Took 45 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:15.562
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:16.001
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:16.001
+!MESSAGE 1 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:16.002
+!MESSAGE Validated 1. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:16.739
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:16.812
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:17.184
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:17.184
+!MESSAGE 1 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:17.185
+!MESSAGE Validated 1. Took 45 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:17.558
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:17.626
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:17.933
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:18.133
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:18.252
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:18.716
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:18.947
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:19.440
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:19.441
+!MESSAGE 1 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:19.442
+!MESSAGE Validated 1. Took 44 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:19.776
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:20.237
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:20.238
+!MESSAGE 2 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:20.239
+!MESSAGE Validated 1. Took 61 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:21.825
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:22.260
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:22.261
+!MESSAGE 1 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:22.262
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:23.187
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:23.625
+!MESSAGE begin problem for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:23.626
+!MESSAGE 1 problems reported for /Student.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:23.626
+!MESSAGE Validated 1. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:24.786
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:24.810
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:24.870
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-06 04:26:24.899
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

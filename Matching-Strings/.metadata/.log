@@ -1,0 +1,441 @@
+!SESSION 2023-05-14 01:09:15.559 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=19.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dlog.protocol=true -Dlog.level=ALL -Xmx4g --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -javaagent: /home/dungtran/.local/share/nvim/mason/packages/jdtls/lombok.jar -jar /home/dungtran/.local/share/nvim/mason/packages/jdtls/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar
+Command-line arguments:  -data /home/dungtran/Workspaces/Java/Matching-Strings -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dlog.protocol=true -Dlog.level=ALL -Xmx4g --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -javaagent: /home/dungtran/.local/share/nvim/mason/packages/jdtls/lombok.jar -jar /home/dungtran/.local/share/nvim/mason/packages/jdtls/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:17.179
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:17.403
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:17.456
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:17.458
+!MESSAGE Initializing Java Language Server 1.23.0.202304271346
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:17.461
+!MESSAGE No workspace folders or root uri was defined. Falling back on /home/dungtran/Workspaces/Java/Matching-Strings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:17.484
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:17.484
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:17.489
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:19.215
+!MESSAGE ProjectRegistryRefreshJob finished 1725ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:19.296
+!MESSAGE Started org.eclipse.buildship.core 69ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:19.317
+!MESSAGE RepositoryRegistryUpdateJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:19.357
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:19.362
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:19.518
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:20.186
+!MESSAGE Workspace initialized in 869ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:20.297
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:20.307
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:20.315
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:20.448
+!MESSAGE Setting /usr/lib/jvm/jdk-19 as 'JavaSE-19' environment (id:1684001359459)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:20.455
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:21.216
+!MESSAGE Reconciled 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:21.314
+!MESSAGE begin problem for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:21.314
+!MESSAGE 2 problems reported for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:21.322
+!MESSAGE Validated 1. Took 95 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:21.330
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:21.331
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-05-14 01:09:21.543
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: MethodNotFound
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: MethodNotFound
+	at java.base/java.util.concurrent.CompletableFuture.reportJoin(CompletableFuture.java:413)
+	at java.base/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2118)
+	at org.eclipse.jdt.ls.core.internal.JavaClientConnection.executeClientCommand(JavaClientConnection.java:93)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.synchronizeBundles(JDTLanguageServer.java:415)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:302)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: MethodNotFound
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:21.584
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:21.669
+!MESSAGE begin problem for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:21.674
+!MESSAGE The declared package "ma" does not match the expected package "com.java.data" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:21.674
+!MESSAGE 3 problems reported for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:21.675
+!MESSAGE Validated 1. Took 76 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:21.696
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:22.328
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:22.520
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:22.786
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:23.108
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:23.432
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:23.572
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:23.725
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:23.933
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:24.406
+!MESSAGE begin problem for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:24.408
+!MESSAGE The declared package "com" does not match the expected package "com.java.data" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:24.417
+!MESSAGE 3 problems reported for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:24.421
+!MESSAGE Validated 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:24.495
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:24.665
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:25.136
+!MESSAGE begin problem for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:25.136
+!MESSAGE 2 problems reported for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:25.138
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:25.600
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:25.685
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:25.765
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:25.850
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:26.332
+!MESSAGE begin problem for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:26.334
+!MESSAGE The declared package "com.java" does not match the expected package "com.java.data" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:26.335
+!MESSAGE 3 problems reported for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:26.336
+!MESSAGE Validated 1. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:28.893
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:29.198
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:29.269
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:29.570
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:29.680
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:30.084
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:30.313
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:30.398
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:30.470
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:30.531
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:30.575
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:30.676
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:30.728
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:31.202
+!MESSAGE begin problem for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:31.203
+!MESSAGE The declared package "co" does not match the expected package "com.java.data" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:31.203
+!MESSAGE 3 problems reported for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:31.204
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:31.703
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:31.757
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:32.030
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:32.105
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:32.390
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:32.401
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:32.599
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:32.728
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:33.200
+!MESSAGE begin problem for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:33.202
+!MESSAGE The declared package "com.java" does not match the expected package "com.java.data" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:33.202
+!MESSAGE 3 problems reported for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:33.204
+!MESSAGE Validated 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:33.591
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:33.728
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:34.069
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:34.596
+!MESSAGE begin problem for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:34.596
+!MESSAGE 1 problems reported for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:34.596
+!MESSAGE Validated 1. Took 76 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:39.112
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:39.327
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:39.374
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:39.544
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:39.625
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:40.096
+!MESSAGE begin problem for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:40.097
+!MESSAGE 2 problems reported for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:40.098
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:40.225
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:40.652
+!MESSAGE begin problem for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:40.653
+!MESSAGE 1 problems reported for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:40.654
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:41.367
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:41.431
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:41.476
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:41.516
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:41.581
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:41.661
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:42.075
+!MESSAGE begin problem for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:42.075
+!MESSAGE 4 problems reported for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:42.076
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:42.361
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:42.455
+!MESSAGE Reconciled 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:42.887
+!MESSAGE begin problem for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:42.888
+!MESSAGE 1 problems reported for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:42.889
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:43.536
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:43.567
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:44.046
+!MESSAGE begin problem for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:44.046
+!MESSAGE 1 problems reported for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:44.047
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:44.346
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:44.416
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:44.843
+!MESSAGE begin problem for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:44.843
+!MESSAGE 1 problems reported for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:44.844
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:44.891
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:44.959
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:45.382
+!MESSAGE begin problem for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:45.383
+!MESSAGE 1 problems reported for /MatchingStrings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:45.384
+!MESSAGE Validated 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:51.100
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:51.119
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:51.163
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-05-14 01:09:51.183
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

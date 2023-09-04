@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>jdt.ls-java-project</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/com/java/maim/FloatingPointValues.java</name>
+			<type>1</type>
+			<location>/home/dungtran/Workspaces/Java/DSA/Floating-Point/src/com/java/maim/FloatingPointValues.java</location>
+		</link>
+		<link>
+			<name>src/com/java/main/FloatingPointValues.java</name>
+			<type>1</type>
+			<location>/home/dungtran/Workspaces/Java/DSA/Floating-Point/src/com/java/main/FloatingPointValues.java</location>
+		</link>
+	</linkedResources>
+	<filteredResources>
+		<filter>
+			<id>1684056157625</id>
+			<name></name>
+			<type>30</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>node_modules|\.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
+</projectDescription>
